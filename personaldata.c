@@ -1,39 +1,39 @@
 
 #include <stdio.h>
-main() // aqui comeca o codigo principal
+main() // Here starts the main code
 {
-char necessidade;
-unsigned short int idade;
-float renda;
-char data[15];
+char needs;
+unsigned short int age;
+float income;
+char date[15];
 char cpf[20];
-char nome[30];
-char endereco[50];
-printf("Formulario para Entrada de Dados\n");
+char name[30];
+char address[50];
+printf("Data Entry Form\n");
 printf("================================\n\n");
-printf("Digite o nome = ");
-gets(nome);
-printf("Digite a idade = ");
-scanf("%hu", &idade);
+printf("Enter name = ");
+gets(name);
+printf("Enter age = ");
+scanf("%hu", &age);
 getchar();
-printf("Digite o endereco = ");
-gets(endereco);
-printf("Digite a renda = ");
-scanf("%f", &renda);
+printf("Enter the address = ");
+gets(address);
+printf("Enter income = ");
+scanf("%f", &income);
 getchar();
-printf("Digite o CPF = ");
+printf("Enter CPF = ");
 gets(cpf);
-printf("Digite a data de nascimento = ");
-gets(data);
-printf("Portador(a) de necessidades especiais (S/N) = ");
-necessidade = getche();
-printf("\n\nExibindo as informacoes\n");
+printf("Enter date of birth = ");
+gets(date);
+printf("Person with special needs (Y/N) = ");
+needs = getche();
+printf("\n\nDisplaying the information\n");
 printf("=========================\n\n");
-printf("Nome digitado = %s\n", nome);
-printf("Idade digitada = %hu\n", idade);
-printf("Endereco digitado = %s\n", endereco);
-printf("Renda digitada = %5.2f\n", renda);
-printf("CPF digitado = %s\n", cpf);
-printf("Data digitada =%s\n", data);
-printf("Necessidades especiais = %c\n\n", necessidade);
+printf("Entered name = %s\n", name);
+printf("Entered age = %hu\n", age);
+printf("Entered address = %s\n", address);
+printf("Typed income = %5.2f\n", income);
+printf("Entered CPF = %s\n", cpf);
+printf("Date entered =%s\n", date);
+printf("Special needs = %c\n\n", needs);
 }
